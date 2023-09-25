@@ -3,6 +3,7 @@
 
 #include "Recursion.h"
 #include "Rmi.h"
+#include "FibonacciNumber.h"
 
 int main(int argc, char *argv[])
 {
@@ -13,6 +14,9 @@ int main(int argc, char *argv[])
 
     std::cout << "\nRMI" << std::endl;
     runRMI();
+
+    std::cout << "\nFibonacci Number" << std::endl;
+    runFibonacciNumber();
 
 
 
