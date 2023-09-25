@@ -16,6 +16,7 @@ add_executable(Recursion
   main.cpp
 
   recursion.h
+  rmi.h
 )
 target_link_libraries(Recursion Qt${QT_VERSION_MAJOR}::Core)
 

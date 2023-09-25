@@ -6,6 +6,8 @@
 template <typename T>
 T Factorial(T x)
 {
+    if (x < 0)
+        return -1;
     (x == 0) ? x = 1 : x = (x * Factorial(x - 1));
     return x;
 }

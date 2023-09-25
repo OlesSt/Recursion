@@ -2,6 +2,7 @@
 #include <iostream>
 
 #include "Recursion.h"
+#include "Rmi.h"
 
 int main(int argc, char *argv[])
 {
@@ -9,6 +10,9 @@ int main(int argc, char *argv[])
 
     std::cout << "Factorical" << std::endl;
     runRecursion();
+
+    std::cout << "\nRMI" << std::endl;
+    runRMI();
 
 
 
