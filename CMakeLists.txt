@@ -14,6 +14,8 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 
 add_executable(Recursion
   main.cpp
+
+  recursion.h
 )
 target_link_libraries(Recursion Qt${QT_VERSION_MAJOR}::Core)
 
