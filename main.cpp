@@ -4,6 +4,8 @@
 #include "Recursion.h"
 #include "Rmi.h"
 #include "FibonacciNumber.h"
+#include "RecursionAlg.h"
+
 
 int main(int argc, char *argv[])
 {
@@ -17,8 +19,6 @@ int main(int argc, char *argv[])
 
     std::cout << "\nFibonacci Number" << std::endl;
     runFibonacciNumber();
-
-
 
     return a.exec();
 }

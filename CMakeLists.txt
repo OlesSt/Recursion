@@ -18,6 +18,7 @@ add_executable(Recursion
   recursion.h
   rmi.h
   fibonaccinumber.h
+  recursionalg.h
 )
 target_link_libraries(Recursion Qt${QT_VERSION_MAJOR}::Core)
 
